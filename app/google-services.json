@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "276212408820",
+    "firebase_url": "https://tourism-d26e2.firebaseio.com",
+    "project_id": "tourism-d26e2",
+    "storage_bucket": "tourism-d26e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276212408820:android:d8a0a6e0fd16e0eddf59a1",
+        "android_client_info": {
+          "package_name": "com.example.cloudproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276212408820-6ieffhl9d59kqlkmdnpl3kdobcsrkpm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQUOr-t6eTXSbxv6I-8zhVlDLFulcD0W0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276212408820-6ieffhl9d59kqlkmdnpl3kdobcsrkpm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

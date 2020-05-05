@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationDetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:contentDescription="Image"
+        />
+
+    <TextView
+        android:id="@+id/location_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long Beach, Halifax"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:textSize="23dp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/type_label"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Type :"-->
+<!--        android:layout_below="@+id/location_tv"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:textColor="@color/colorRed"-->
+<!--        android:textStyle="italic"-->
+<!--        android:textSize="23dp"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/type_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water falls"
+        android:layout_below="@+id/location_tv"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:textSize="23dp"
+        />
+<!--    <TextView-->
+<!--        android:id="@+id/keyfeat"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Key Features: "-->
+<!--        android:layout_below="@+id/type_content"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:textColor="@color/colorRed"-->
+<!--        android:textStyle="italic"-->
+<!--        android:textSize="23dp"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/keyfeat_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Niagara Falls is Canada's most famous natural attraction, bringing in millions of visitors each year."
+        android:layout_below="@+id/type_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:textSize="23dp"
+        />
+
+    <Button
+        android:id="@+id/btn_book"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Book Ticket"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/keyfeat_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorwhite"
+        android:background="@color/lightblue"
+        style="@style/Widget.AppCompat.Button.Colored"
+
+        />
+
+</RelativeLayout>
